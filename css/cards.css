@@ -1,0 +1,28 @@
+.cards-container{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em; /* Espacio entre las cards */
+    margin: 1rem auto;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Opcional: centra el contenido horizontalmente */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 0 auto; /* Centra la tarjeta en la página */
+    background-color: #fff; /* Fondo blanco para la tarjeta */
+}
+.card p {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}

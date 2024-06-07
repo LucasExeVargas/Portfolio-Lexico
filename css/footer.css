@@ -1,0 +1,49 @@
+.boddy-footer{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding-bottom: 1%;
+}
+.footer_bg{
+    width: 100%;
+
+    background: linear-gradient(to bottom, rgba(0, 128, 255, 0),#0e6db5);
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    flex-direction: column; /* Cambia la dirección del flex a columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.ico{
+    margin: 10px; /* Ajusta el margen para separar las imágenes */
+    width: 3rem;
+    transition: 0.3s ease;
+}
+.ico:hover{
+    transform: scale(1.2);
+}
+.icons_div{
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center; */
+}
+.footer_text p {
+    margin: 0; /* Ajusta el margen para evitar espacios adicionales */
+    font-size: 1rem;
+}
+    
+@media screen and (max-width: 480px) {
+    p{
+        text-align: center;
+    }
+    a{
+        display: flex;
+    }
+    .footer-img{
+        padding-left: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
