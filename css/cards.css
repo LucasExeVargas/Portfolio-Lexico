@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center; /* Opcional: centra el contenido horizontalmente */
-    padding: 20px;
+    padding: 0;
     border: 1px solid #ccc;
     border-radius: 10px;
     max-width: 300px;
@@ -20,9 +20,34 @@
 }
 .card p {
     margin: 0;
-    padding: 10px 0;
     text-align: center;
     word-wrap: break-word;
     word-break: break-word;
     overflow-wrap: break-word;
+}
+.audio{
+    padding: 1rem;
+}
+.text-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+.card .img {
+    width: 100%; /* Asegura que el contenedor de la imagen tenga el mismo ancho que la tarjeta */
+    height: auto; /* Fija una altura para mantener la relación de aspecto */
+    overflow: hidden; /* Oculta cualquier contenido que exceda el contenedor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc; /* Añade un borde inferior para separar visualmente la imagen del contenido */
+}
+
+.card .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor sin deformarse */
+    border-radius: 10px 10px 0 0; /* Aplica el borde redondeado solo a las esquinas superiores */
 }
