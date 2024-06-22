@@ -14,9 +14,13 @@
     padding: 0;
     border: 1px solid #ccc;
     border-radius: 10px;
-    max-width: 300px;
+    max-width: 250px;
     margin: 0 auto; /* Centra la tarjeta en la página */
     background-color: #fff; /* Fondo blanco para la tarjeta */
+}
+.ingles{
+    
+    text-align: center;
 }
 .card p {
     margin: 0;
@@ -50,4 +54,11 @@
     height: 100%;
     object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor sin deformarse */
     border-radius: 10px 10px 0 0; /* Aplica el borde redondeado solo a las esquinas superiores */
+}
+
+.audio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

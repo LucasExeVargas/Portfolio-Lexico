@@ -1,18 +1,20 @@
 body {
+    height: 2000px; /* Para asegurar que haya espacio para hacer scroll */
+    margin: 0;
     font-size: 16px;
     margin: 0;
 }
+
 .animated-div {
     position: relative;
     top: 20px;
     left: -100%;
     transform: translateY(0%);
-    width: 50%;
+    width: 80%;
     height: auto;
     border-radius: 8px;
     overflow: hidden;
     transition: left 2s;
-    padding: 3rem;
 }
 
 .animated-div.visible {
