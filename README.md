@@ -31,6 +31,3 @@ Puedes acceder al proyecto directamente desde tu navegador a través del siguien
 👉 [https://portfolio-lexico.pages.dev/](https://portfolio-lexico.pages.dev/)
 
 No necesitas instalar nada, solo una conexión a internet y un navegador actualizado.
-
-## 📁 Estructura del proyecto
-
