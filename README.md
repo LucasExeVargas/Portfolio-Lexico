@@ -1,6 +1,6 @@
 # Portfolio-Lexico
 
-![Portfolio-Lexico](https://portfolio-lexico.pages.dev/favicon.ico)
+
 
 **Portfolio-Lexico** es un proyecto académico desarrollado para una materia de la facultad. Su objetivo es ofrecer una lista organizada de palabras en inglés junto con su traducción al español, clase gramatical, y otra información útil para el aprendizaje del idioma.
 
